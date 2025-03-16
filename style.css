@@ -2,8 +2,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: black;
+    color: #ebf7ee;
     line-height: 1.6;
   }
   
@@ -36,6 +36,7 @@ body {
   .project-card .btn-primary {
     background-color: #FFD700;
     border-color: #FFD700;
+    color: black;
   }
   
   .project-card .btn-primary:hover {
