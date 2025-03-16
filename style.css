@@ -1,8 +1,8 @@
-/* Estilos generales */
+/* Estilos globales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f8f9fa;
+    background-color: black;
     color: #333;
     line-height: 1.6;
   }
@@ -27,6 +27,22 @@ body {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
   }
   
+  .project-card img {
+    border-radius: 5px 5px 0 0;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-card .btn-primary {
+    background-color: #FFD700;
+    border-color: #FFD700;
+  }
+  
+  .project-card .btn-primary:hover {
+    background-color: #FFC107;
+    border-color: #FFC107;
+  }
+  
   /* Contacto */
   section#contact a {
     color: #007bff;
@@ -40,4 +56,4 @@ body {
   /* Pie de página */
   footer {
     font-size: 0.9rem;
-  }
+    }
