@@ -2,10 +2,11 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: black;
-    color: #ebf7ee;
+    background-color: #121212;
+    color: #e0e0e0;
     line-height: 1.6;
   }
+  
   
   /* Encabezado */
   header h1 {
@@ -58,3 +59,11 @@ body {
   footer {
     font-size: 0.9rem;
   }
+  .icon-link img {
+    transition: transform 0.3s ease-in-out; /* Suaviza el efecto */
+  }
+  
+  .icon-link img:hover {
+    transform: scale(1.2); /* Agranda el ícono al pasar el mouse */
+  }
+  
