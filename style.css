@@ -70,4 +70,11 @@ body {
     margin-top: 40px; /* Espacio superior */
     margin-bottom: 40px; /* Espacio inferior */
   }
+  .img-profile {
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    height: 150px; /* Mantén la altura igual a la anchura para que sea circular */
+    border-radius: 50%; /* Esto hace que la imagen sea circular */
+    object-fit: cover; /* Esto asegura que la imagen se recorte adecuadamente */
+    margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+  }
   
