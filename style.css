@@ -66,4 +66,8 @@ body {
   .icon-link img:hover {
     transform: scale(1.2); /* Agranda el ícono al pasar el mouse */
   }
+  #data-analyzer {
+    margin-top: 40px; /* Espacio superior */
+    margin-bottom: 40px; /* Espacio inferior */
+  }
   
